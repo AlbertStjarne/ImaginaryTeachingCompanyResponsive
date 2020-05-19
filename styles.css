@@ -324,6 +324,11 @@ hr {
   color: #777;
 }
 
+.link-title a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
 .footer-info {
   display: flex;
   align-items: flex-end;
