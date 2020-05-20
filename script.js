@@ -10,3 +10,9 @@ menuBtn.addEventListener('click', function () {
     sideNav.style.right = '-250px';
   }
 });
+
+// smooth scroll
+// https://github.com/cferdinandi/smooth-scroll
+var scroll = new SmoothScroll('a[href*="#"]', {
+  speed: 600,
+});
